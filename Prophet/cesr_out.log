@@ -1,0 +1,89 @@
+nohup: ignoring input
+Importing plotly failed. Interactive plots will not work.
+Importing plotly failed. Interactive plots will not work.
+INFO - (NP.config_components.__post_init__) - Note: Trend changepoint regularization is experimental.
+INFO - (NP.forecaster.add_lagged_regressor) - n_lags = 'auto', but there is no lags for Autoregression. Number of lags for regressor is automatically set to 1
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Major frequency h corresponds to 100.0% of the data.
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Defined frequency is equal to major frequency - h
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Major frequency h corresponds to 100.0% of the data.
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Defined frequency is equal to major frequency - h
+INFO - (NP.forecaster.fit) - When Global modeling with local normalization, metrics are displayed in normalized scale.
+WARNING - (NP.forecaster.fit) - Metrics are enabled. Please provide valid metrics logging directory. Setting to CWD
+INFO - (NP.forecaster.fit) - Train Dataset size: 869566
+INFO - (NP.forecaster.fit) - Number of batches per training epoch: 850
+  CUDA is available. NeuralProphet will use GPU: NVIDIA GeForce RTX 4070 SUPER
+Training data saved to: train_data.csv
+Training model...
+Training: |          | 0/? [00:00<?, ?it/s]Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 1:   0%|          | 0/20 [00:00<?, ?it/s] Epoch 1:   5%|▌         | 1/20 [00:00<00:00, 14122.24it/s]WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+
+Training: |          | 0/? [00:10<?, ?it/s, v_num=46, MAE=0.0973, RMSE=0.124, Loss=0.0298, RegLoss=0.000, LR=0.0129]Epoch 1:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 2:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 2:  10%|█         | 2/20 [00:00<00:00, 21845.33it/s]Training: |          | 0/? [00:20<?, ?it/s, v_num=46, MAE=0.0568, RMSE=0.0747, Loss=0.00698, RegLoss=0.000, LR=0.029]Epoch 2:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 3:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 3:  15%|█▌        | 3/20 [00:00<00:00, 21807.47it/s]Training: |          | 0/? [00:30<?, ?it/s, v_num=46, MAE=0.0611, RMSE=0.0795, Loss=0.00798, RegLoss=0.000, LR=0.055]Epoch 3:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 4:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 4:  20%|██        | 4/20 [00:00<00:00, 38130.04it/s]Training: |          | 0/? [00:39<?, ?it/s, v_num=46, MAE=0.0673, RMSE=0.0867, Loss=0.0097, RegLoss=0.000, LR=0.081] Epoch 4:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 5:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 5:  25%|██▌       | 5/20 [00:00<00:00, 49932.19it/s]Training: |          | 0/? [00:50<?, ?it/s, v_num=46, MAE=0.0682, RMSE=0.0877, Loss=0.00987, RegLoss=0.000, LR=0.0971]Epoch 5:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 6:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 6:  30%|███       | 6/20 [00:00<00:00, 51675.20it/s]Training: |          | 0/? [00:59<?, ?it/s, v_num=46, MAE=0.0661, RMSE=0.0853, Loss=0.00928, RegLoss=0.000, LR=0.0971]Epoch 6:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 7:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 7:  35%|███▌      | 7/20 [00:00<00:00, 75475.91it/s]Training: |          | 0/? [01:09<?, ?it/s, v_num=46, MAE=0.0617, RMSE=0.0802, Loss=0.00811, RegLoss=0.000, LR=0.081] Epoch 7:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 8:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 8:  40%|████      | 8/20 [00:00<00:00, 68200.07it/s]Training: |          | 0/? [01:19<?, ?it/s, v_num=46, MAE=0.0584, RMSE=0.0765, Loss=0.00734, RegLoss=0.000, LR=0.055]Epoch 8:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 9:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 9:  45%|████▌     | 9/20 [00:00<00:00, 58074.98it/s]Training: |          | 0/? [01:30<?, ?it/s, v_num=46, MAE=0.0562, RMSE=0.074, Loss=0.00685, RegLoss=0.000, LR=0.029] Epoch 9:   0%|          | 0/20 [00:00<?, ?it/s]           Epoch 10:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 10:  50%|█████     | 10/20 [00:00<00:00, 97090.37it/s]Training: |          | 0/? [01:40<?, ?it/s, v_num=46, MAE=0.055, RMSE=0.0727, Loss=0.00659, RegLoss=0.000, LR=0.0129]Epoch 10:   0%|          | 0/20 [00:00<?, ?it/s]            Epoch 11:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 11:  55%|█████▌    | 11/20 [00:00<00:00, 113081.73it/s]Training: |          | 0/? [01:49<?, ?it/s, v_num=46, MAE=0.055, RMSE=0.0726, Loss=0.00658, RegLoss=0.000, LR=0.00991]Epoch 11:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 12:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 12:  60%|██████    | 12/20 [00:00<00:00, 123664.98it/s]Training: |          | 0/? [01:59<?, ?it/s, v_num=46, MAE=0.055, RMSE=0.0726, Loss=0.00659, RegLoss=0.000, LR=0.00938]Epoch 12:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 13:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 13:  65%|██████▌   | 13/20 [00:00<00:00, 138390.74it/s]Training: |          | 0/? [02:09<?, ?it/s, v_num=46, MAE=0.055, RMSE=0.0726, Loss=0.00659, RegLoss=0.000, LR=0.00838]Epoch 13:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 14:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 14:  70%|███████   | 14/20 [00:00<00:00, 154934.71it/s]Training: |          | 0/? [02:19<?, ?it/s, v_num=46, MAE=0.0547, RMSE=0.0723, Loss=0.00654, RegLoss=0.000, LR=0.00703]Epoch 14:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 15:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 15:  75%|███████▌  | 15/20 [00:00<00:00, 131620.42it/s]Training: |          | 0/? [02:29<?, ?it/s, v_num=46, MAE=0.0546, RMSE=0.0722, Loss=0.00652, RegLoss=0.000, LR=0.0055] Epoch 15:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 16:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 16:  80%|████████  | 16/20 [00:00<00:00, 169466.83it/s]Training: |          | 0/? [02:39<?, ?it/s, v_num=46, MAE=0.0544, RMSE=0.0719, Loss=0.00647, RegLoss=0.000, LR=0.00397]Epoch 16:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 17:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 17:  85%|████████▌ | 17/20 [00:00<00:00, 185685.33it/s]Training: |          | 0/? [02:49<?, ?it/s, v_num=46, MAE=0.0542, RMSE=0.0717, Loss=0.00643, RegLoss=0.000, LR=0.00262]Epoch 17:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 18:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 18:  90%|█████████ | 18/20 [00:00<00:00, 109100.39it/s]Training: |          | 0/? [02:59<?, ?it/s, v_num=46, MAE=0.0541, RMSE=0.0716, Loss=0.0064, RegLoss=0.000, LR=0.00162] Epoch 18:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 19:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 19:  95%|█████████▌| 19/20 [00:00<00:00, 166719.20it/s]Training: |          | 0/? [03:09<?, ?it/s, v_num=46, MAE=0.054, RMSE=0.0715, Loss=0.00638, RegLoss=0.000, LR=0.00109]Epoch 19:   0%|          | 0/20 [00:00<?, ?it/s]             Epoch 20:   0%|          | 0/20 [00:00<?, ?it/s]Epoch 20: 100%|██████████| 20/20 [00:00<00:00, 224294.33it/s]Training: |          | 0/? [03:19<?, ?it/s, v_num=46, MAE=0.054, RMSE=0.0715, Loss=0.00638, RegLoss=0.000, LR=0.00109]Training: |          | 0/? [03:19<?, ?it/s, v_num=46, MAE=0.054, RMSE=0.0715, Loss=0.00638, RegLoss=0.000, LR=0.00109]INFO - (NP.forecaster.fit) - Train Time:  199.177
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Major frequency h corresponds to 99.999% of the data.
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Defined frequency is equal to major frequency - h
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Major frequency h corresponds to 99.999% of the data.
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Defined frequency is equal to major frequency - h
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Major frequency h corresponds to 99.999% of the data.
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Defined frequency is equal to major frequency - h
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Major frequency h corresponds to 99.999% of the data.
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+WARNING - (py.warnings._showwarnmsg) - /home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/neuralprophet/df_utils.py:1120: FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+  converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+INFO - (NP.df_utils._infer_frequency) - Defined frequency is equal to major frequency - h
+
+Model saved to: /home/bel/Desktop/Shiv_SRIP/ATenLoc/Prophet/model/400_30_cesr.np
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/107 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/107 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 107/107 [00:00<00:00, 108.51it/s]Predicting DataLoader 0: 100%|██████████| 107/107 [00:00<00:00, 108.48it/s]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/107 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/107 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 107/107 [00:00<00:00, 120.32it/s]Predicting DataLoader 0: 100%|██████████| 107/107 [00:00<00:00, 120.29it/s]
+
+Test Set Evaluation:
+MAE = 0.0500, MSE = 0.0041, R² = 0.8833
