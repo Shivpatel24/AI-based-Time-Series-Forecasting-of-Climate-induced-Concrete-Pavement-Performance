@@ -1,0 +1,14 @@
+nohup: ignoring input
+Using device: cuda
+Epoch [1/3] - Train Loss: 0.524844
+Epoch [2/3] - Train Loss: 0.400456
+Epoch [3/3] - Train Loss: 0.385638
+
+--- Evaluation on Test Split ---
+
+LSTM with Two Hidden Layers
+RMSE: 0.6399
+MAE:  0.4743
+R²:   0.9925
+Saved model to: /home/bel/Desktop/Shiv_SRIP/ATenLoc/LSTM/Model/lstm_tl_seq3_albx_2layer.pth
+Saved scaler(s) to: /home/bel/Desktop/Shiv_SRIP/ATenLoc/LSTM/Scalers/lstm_tl_seq3_albx_2layer.save
