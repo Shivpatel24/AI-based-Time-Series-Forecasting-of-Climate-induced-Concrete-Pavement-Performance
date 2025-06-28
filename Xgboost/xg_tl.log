@@ -1,0 +1,29 @@
+nohup: ignoring input
+/home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/xgboost/training.py:183: UserWarning: [10:15:41] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+
+    E.g. tree_method = "hist", device = "cuda"
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/xgboost/core.py:2676: UserWarning: [10:15:47] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+
+    E.g. tree_method = "hist", device = "cuda"
+
+  if len(data.shape) != 1 and self.num_features() != data.shape[1]:
+/home/bel/Desktop/Shiv_SRIP/.venv/lib/python3.12/site-packages/xgboost/core.py:729: UserWarning: [10:15:47] WARNING: /workspace/src/common/error_msg.cc:58: Falling back to prediction using DMatrix due to mismatched devices. This might lead to higher memory usage and slower performance. XGBoost is running on: cuda:0, while the input data is on: cpu.
+Potential solutions:
+- Use a data structure that matches the device ordinal in the booster.
+- Set the device for booster before call to inplace_predict.
+
+This warning will only be shown once.
+
+  return func(**kwargs)
+
+--- XGBoost Model Evaluation ---
+
+Test in Time delta_TL
+RMSE: 1.5965
+MAE:  1.1011
+R²:   0.9534
+
+Model saved to /home/bel/Desktop/Shiv_SRIP/ATenLoc/Xgboost/models/xgb_tl_final.model
+Scalers saved to /home/bel/Desktop/Shiv_SRIP/ATenLoc/Xgboost/scalers/xgb_tl_final.save
