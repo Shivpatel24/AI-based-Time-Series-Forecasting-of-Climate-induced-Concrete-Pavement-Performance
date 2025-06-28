@@ -72,8 +72,8 @@ The best-performing model, achieving R² scores exceeding 0.98 for TL prediction
 | ANN           | ~ 0.96      | ~ 0.86         | Effective with key engineered features    |
 | XGBoost       | ~ 0.94      | ~ 0.85         | Fast and accurate, lacks sequential memory|
 | NeuralProphet | ~ 0.91      | ~ 0.82         | Flexible with seasonality and regressors  |
-| SARIMAX       | ~ 0.88      | ~ 0.80         | Leverages exogenous inputs                |
-| SARIMA        | ~ 0.85      | ~ 0.77         | Includes seasonality      |
-| ARIMA         | ~ 0.79      | ~ 0.72         |As the Data is Seasonal it was not a right mdoel                    |
+| SARIMAX       | ~ 0.32 (due to more variability)      | ~ 0.74         | Leverages exogenous inputs                |
+| SARIMA        | ~ 0.56      | ~ 0.59         | Includes seasonality      |
+| ARIMA         | ~ N.A      | ~ N.A        |As the Data is Seasonal it was not a right mdoel                    |
 
 
