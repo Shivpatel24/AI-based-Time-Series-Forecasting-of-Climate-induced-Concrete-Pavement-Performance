@@ -67,11 +67,11 @@ The best-performing model, achieving R² scores exceeding 0.98 for TL prediction
 
 | Model         | TL R² Score | CESR R² Score | Key Insights                             |
 |---------------|-------------|----------------|-------------------------------------------|
-| LSTM          | > 0.98      | ~ 0.91         | Best performance across all conditions    |
-| RNN           | ~ 0.95      | ~ 0.89         | Strong sequence learning on shorter terms |
-| ANN           | ~ 0.96      | ~ 0.86         | Effective with key engineered features    |
-| XGBoost       | ~ 0.94      | ~ 0.85         | Fast and accurate, lacks sequential memory|
-| NeuralProphet | ~ 0.91      | ~ 0.82         | Flexible with seasonality and regressors  |
+| LSTM          | > 0.98      | > 0.98         | Best performance across all conditions    |
+| RNN           | ~ 0.97      | ~ 0.94         | Strong sequence learning on shorter terms |
+| ANN           | ~ 0.94      | ~ 0.90         | Effective with key engineered features    |
+| XGBoost       | ~ 0.93      | ~ 0.92         | Fast and accurate, lacks sequential memory|
+| NeuralProphet | ~ 0.93      | ~ 0.86         | Flexible with seasonality and regressors  |
 | SARIMAX       | ~ 0.32 (due to more variability)      | ~ 0.74         | Leverages exogenous inputs                |
 | SARIMA        | ~ 0.56      | ~ 0.59         | Includes seasonality      |
 | ARIMA         | ~ N.A      | ~ N.A        |As the Data is Seasonal it was not a right mdoel                    |
