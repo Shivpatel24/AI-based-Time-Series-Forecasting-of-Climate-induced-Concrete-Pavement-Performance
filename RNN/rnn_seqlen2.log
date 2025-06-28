@@ -1,0 +1,12 @@
+nohup: ignoring input
+Using device: cuda
+Epoch [1/3] - Train Loss: 1.373586
+Epoch [2/3] - Train Loss: 1.240893
+Epoch [3/3] - Train Loss: 1.234157
+
+--- Evaluation on Test Split ---
+RMSE: 1.1520
+MAE: 0.8548
+R²: 0.9757
+Saved model to: /home/bel/Desktop/Shiv_SRIP/ATenLoc/RNN/Model/rnn_tl_seq2.pth
+Saved scaler(s) to: /home/bel/Desktop/Shiv_SRIP/ATenLoc/RNN/scalers/rnn_tl_seq2.save
