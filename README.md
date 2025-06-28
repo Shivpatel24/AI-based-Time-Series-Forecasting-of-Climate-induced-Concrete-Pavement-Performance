@@ -74,6 +74,6 @@ The best-performing model, achieving R² scores exceeding 0.98 for TL prediction
 | NeuralProphet | ~ 0.91      | ~ 0.82         | Flexible with seasonality and regressors  |
 | SARIMAX       | ~ 0.88      | ~ 0.80         | Leverages exogenous inputs                |
 | SARIMA        | ~ 0.85      | ~ 0.77         | Good for seasonal univariate series       |
-| ARIMA         | ~ 0.79      | ~ 0.72         | Simple baseline model                     |
+| ARIMA         | ~ 0.79      | ~ 0.72         |As the Data is Seasonal it was not able to perform                     |
 
 
