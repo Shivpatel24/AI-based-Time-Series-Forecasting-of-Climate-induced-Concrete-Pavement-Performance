@@ -59,7 +59,7 @@ The best-performing model, achieving R² scores exceeding 0.98 for TL prediction
 - Detailed feature engineering was performed to capture the physical, spatial, and temporal dynamics influencing TL and CESR.
 - Generalization was tested using geographically distinct sites (Delhi and Kanyakumari).
 - Evaluation was performed using R² score, Mean Absolute Error (MAE), and Mean Squared Error (MSE).
-- LSTM was particularly effective for TL and CESR both, as we increased the complexity of Model we were able to get a better and good R2.
+- LSTM was particularly effective for TL and CESR both, as we increased the complexity of Model we were able to get a better and good R^2$.
 - The project demonstrates the potential for machine learning to serve as a faster alternative to traditional numerical simulations.
 
 
